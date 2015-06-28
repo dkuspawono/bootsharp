@@ -88,7 +88,7 @@ You can build Bootsharp using `grunt` and serve up a local server with watcher u
 
 **Aaron Dancer**
 
-+ <http://aaronda.com>
++ <http://aarondancer.com>
 + <http://github.com/aaron7pm>
 
 **Hamza Khan**
