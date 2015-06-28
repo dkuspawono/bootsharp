@@ -114,7 +114,7 @@ ol.linenums {
   width: 236px;
 }
 .demo-logo small {
-  color: rgba(52, 73, 94, 0.3);
+  color: rgba(40, 41, 40, 0.3);
   display: block;
   font-size: 22px;
   font-weight: 700;
@@ -133,7 +133,7 @@ ol.linenums {
   left: 0;
   font-size: 13px;
   line-height: 13px;
-  color: #c0c1c2;
+  color: #b6b6b6;
   font-weight: 400;
 }
 .demo-row .demo-text-note {
@@ -160,7 +160,7 @@ ol.linenums {
   font: bold 23px/40px "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .demo-panel-title small {
-  color: #798795;
+  color: #717271;
   font-size: inherit;
   font-weight: 400;
 }
@@ -201,7 +201,7 @@ ol.linenums {
 }
 .demo-icons-tooltip {
   bottom: 0;
-  color: #c2c8cf;
+  color: #bfbfbf;
   font-size: 12px;
   left: 100%;
   margin-left: 0 !important;
@@ -247,7 +247,7 @@ ol.linenums {
   margin: 3px 0 -3px;
 }
 .demo-download {
-  background-color: #ebedef;
+  background-color: #eaeaea;
   height: 190px;
   margin: 0 auto 32px;
   padding: 40px 28px 30px 32px;
@@ -265,15 +265,15 @@ ol.linenums {
   text-align: center;
 }
 .demo-text-box a:hover {
-  color: #1abc9c;
+  color: #a0cc41;
 }
 .demo-browser {
-  background: #2c3e50 url(../img/demo/browser.png) 0 0 no-repeat;
+  background: #222322 url(../img/demo/browser.png) 0 0 no-repeat;
   background-size: 659px 42px;
   color: #ffffff;
   margin: 0 41px 140px 0;
   padding-top: 42px;
-  border-radius: 0 0 6px 6px;
+  border-radius: 0 0 0 0;
 }
 .demo-browser-side {
   float: left;
@@ -310,7 +310,7 @@ ol.linenums {
 .demo-browser-action > .btn {
   padding: 7px 0 8px 11px !important;
   text-align: left;
-  border-radius: 3px;
+  border-radius: 0;
 }
 .demo-browser-action > .btn > [class^="fui-"] {
   margin-right: 12px;
@@ -318,10 +318,10 @@ ol.linenums {
   top: 1px;
 }
 .demo-browser-content {
-  background-color: #34495e;
+  background-color: #282928;
   overflow: hidden;
   padding: 21px 0 0 20px;
-  border-radius: 0 0 6px;
+  border-radius: 0 0 0;
 }
 .demo-browser-content > img {
   border: 6px solid #ffffff;

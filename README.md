@@ -8,7 +8,7 @@ To get started, check out [getting started page](http://sslcom.github.io/Bootsha
 ## Links:
 
 + [Demo Page](http://sslcom.github.io/Bootsharp/)
-+ [SSl.com](https://www.ssl.com)
++ [SSL.com](https://www.ssl.com)
 
 ## Quick start
 

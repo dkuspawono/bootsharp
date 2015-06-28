@@ -1,5 +1,5 @@
 /*!
- * Bootsharp v0.1.0 (http://sslcom.github.io/Bootsharp)
+ * Bootsharp v0.2.0 (http://sslcom.github.io/Bootsharp)
  * Copyright 2013-2015 SSL Corp.
  */
 /*!
@@ -12643,7 +12643,7 @@ the specific language governing permissions and limitations under the Apache Lic
 }(jQuery));
 
 /* ============================================================
- * flatui-radiocheck v0.1.0
+ * flatui-radiocheck v0.2.0
  * ============================================================ */
 
 +function (global, $) {
