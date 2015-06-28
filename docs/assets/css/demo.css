@@ -273,7 +273,7 @@ ol.linenums {
   color: #ffffff;
   margin: 0 41px 140px 0;
   padding-top: 42px;
-  border-radius: 0 0 6px 6px;
+  border-radius: 0 0 0 0;
 }
 .demo-browser-side {
   float: left;
@@ -310,7 +310,7 @@ ol.linenums {
 .demo-browser-action > .btn {
   padding: 7px 0 8px 11px !important;
   text-align: left;
-  border-radius: 3px;
+  border-radius: 0;
 }
 .demo-browser-action > .btn > [class^="fui-"] {
   margin-right: 12px;
@@ -321,7 +321,7 @@ ol.linenums {
   background-color: #34495e;
   overflow: hidden;
   padding: 21px 0 0 20px;
-  border-radius: 0 0 6px;
+  border-radius: 0 0 0;
 }
 .demo-browser-content > img {
   border: 6px solid #ffffff;
