@@ -1,6 +1,6 @@
 # [Bootsharp](http://sslcom.github.io/Bootsharp/)
 
-Bootsharp is a beautiful and professional theme for [Bootstrap](http://getbootstrap.com). It is based on the [Flat UI theme by Designmodo](http://designmodo.github.io/flat-ui/)
+Bootsharp is a beautiful and professional theme for [Bootstrap](http://getbootstrap.com) by [SSL.com](https://www.ssl.com). It is based on the [Flat UI theme by Designmodo](http://designmodo.github.io/flat-ui/)
 
 To get started, check out [getting started page](http://sslcom.github.io/Bootsharp/docs/getting-started.html) or follow instructions below.
 
@@ -76,12 +76,20 @@ We provide compiled CSS and JS (`bootsharp.*`), as well as compiled and minified
 
 Bootsharp's documentation, included in this repo in the docs directory and publicly hosted on GitHub Pages at <http://sslcom.github.io/Bootsharp/docs/components.html>.
 
+## How to build
+
+Bootsharp requires Bower and Grunt. 
+
+You can install the required dependencies by running `bower install`
+
+You can build Bootsharp using `grunt` and serve up a local server with watcher using `grunt server`. The local server will live reload as you make changes.
+
 ## Authors
 
 **Aaron Dancer**
 
-+ <http://aarondancer.com>
-+ <http://github.com/aaron7pm>
++ <http://aaronda.com>
++ <http://github.com/aancerron7pm>
 
 **Hamza Khan**
 
