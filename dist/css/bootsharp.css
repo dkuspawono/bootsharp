@@ -4054,7 +4054,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   font-size: 20px;
   }
 .navbar {
-  min-height: 53px;
+  min-height: 60px;
   margin-bottom: 30px;
   font-size: 16px;
   border: none;
@@ -4136,8 +4136,8 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   border-width: 0;
   }
 .navbar-brand {
-  height: 53px;
-  padding: 14px 21px;
+  height: 60px;
+  padding: 17.5px 21px;
   font-size: 24px;
   font-weight: 700;
   line-height: 1.042;
@@ -4154,10 +4154,10 @@ fieldset[disabled] .input-group-btn .btn-default.active {
     }
   }
 .navbar-toggle {
-  height: 53px;
+  height: 60px;
   padding: 0 21px;
   margin: 0 0 0 21px;
-  line-height: 53px;
+  line-height: 60px;
   color: #282928;
   border: none;
   }
@@ -4194,10 +4194,10 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   margin: 0;
   }
 .navbar-nav > li > a {
-  padding: 15px 21px;
+  padding: 16px 21px;
   font-size: 16px;
   font-weight: 700;
-  line-height: 23px;
+  line-height: 28px;
   }
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus,
@@ -4223,7 +4223,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
     padding: 7px 15px 7px 31px !important;
     }
   .navbar-nav .open .dropdown-menu > li > a {
-    line-height: 23px;
+    line-height: 28px;
     }
   .navbar-nav > li > a {
     padding-top: 7px;
@@ -4246,9 +4246,9 @@ select[multiple].navbar-input {
   height: auto;
   }
 .navbar-form {
-  padding-top: 9px;
+  padding-top: 12.5px;
   padding-right: 19px;
-  padding-bottom: 9px;
+  padding-bottom: 12.5px;
   padding-left: 19px;
   margin-top: 0;
   margin-bottom: 0;
@@ -4358,8 +4358,8 @@ select[multiple].navbar-form .select2-search input[type="text"] {
   background-color: transparent;
   }
 .navbar-text {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   margin-top: 0;
   margin-bottom: 0;
   font-size: 16px;
@@ -4376,16 +4376,16 @@ select[multiple].navbar-form .select2-search input[type="text"] {
     }
   }
 .navbar-btn {
-  margin-top: 6px;
-  margin-bottom: 6px;
+  margin-top: 9.5px;
+  margin-bottom: 9.5px;
   }
 .navbar-btn.btn-sm {
-  margin-top: 9px;
-  margin-bottom: 8px;
+  margin-top: 12.5px;
+  margin-bottom: 11.5px;
   }
 .navbar-btn.btn-xs {
-  margin-top: 14px;
-  margin-bottom: 14px;
+  margin-top: 17.5px;
+  margin-bottom: 17.5px;
   }
 .navbar-unread,
 .navbar-new {
@@ -4642,8 +4642,8 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   border-bottom-color: #fff;
   }
 .navbar-inverse .navbar-nav > .dropdown > a .caret {
-  border-top-color: #3f3f3f;
-  border-bottom-color: #3f3f3f;
+  border-top-color: #fff;
+  border-bottom-color: #fff;
   }
 .navbar-inverse .navbar-nav > .open > .dropdown-menu {
   padding: 3px 4px;
@@ -4845,12 +4845,12 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
     }
   }
 .navbar-lg {
-  min-height: 76px;
+  min-height: 80px;
   }
 .navbar-lg .navbar-brand {
-  height: 76px;
-  padding-top: 26px;
-  padding-bottom: 26px;
+  height: 80px;
+  padding-top: 28px;
+  padding-bottom: 28px;
   line-height: 1;
   }
 .navbar-lg .navbar-brand > [class*="fui-"] {
@@ -4863,33 +4863,33 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
   }
 @media (min-width: 768px) {
   .navbar-lg .navbar-nav > li > a {
-    padding-top: 26px;
-    padding-bottom: 26px;
+    padding-top: 28px;
+    padding-bottom: 28px;
     }
   }
 .navbar-lg .navbar-toggle {
-  height: 76px;
-  line-height: 76px;
+  height: 80px;
+  line-height: 80px;
   }
 .navbar-lg .navbar-form {
-  padding-top: 20.5px;
-  padding-bottom: 20.5px;
+  padding-top: 22.5px;
+  padding-bottom: 22.5px;
   }
 .navbar-lg .navbar-text {
-  padding-top: 26.5px;
-  padding-bottom: 26.5px;
+  padding-top: 26px;
+  padding-bottom: 26px;
   }
 .navbar-lg .navbar-btn {
-  margin-top: 17.5px;
-  margin-bottom: 17.5px;
+  margin-top: 19.5px;
+  margin-bottom: 19.5px;
   }
 .navbar-lg .navbar-btn.btn-sm {
-  margin-top: 20.5px;
-  margin-bottom: 20.5px;
+  margin-top: 22.5px;
+  margin-bottom: 22.5px;
   }
 .navbar-lg .navbar-btn.btn-xs {
-  margin-top: 25.5px;
-  margin-bottom: 25.5px;
+  margin-top: 27.5px;
+  margin-bottom: 27.5px;
   }
 .bootstrap-switch {
   position: relative;

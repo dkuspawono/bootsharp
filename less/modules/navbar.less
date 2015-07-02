@@ -198,8 +198,8 @@
 
   > li > a {
     font-size: floor((@component-font-size-base * 1.067)); // ~16px
-    padding: ((@navbar-height-base - 23px) / 2) 21px;
-    line-height: 23px;
+    padding: ((@navbar-height-base - 28px) / 2) 21px;
+    line-height: 28px;
     font-weight: 700;
   }
   > li > a:hover,
@@ -231,7 +231,7 @@
         padding: 7px 15px 7px 31px !important;
       }
       > li > a {
-        line-height: 23px;
+        line-height: 28px;
       }
     }
     > li > a {
@@ -344,12 +344,12 @@
 
 .navbar-text {
   font-size: floor((@component-font-size-base * 1.067)); // ~16px
-  line-height: 1.438; // ~23px
+  line-height: 1.438; // ~28px
   color: @brand-primary;
   margin-top: 0;
   margin-bottom: 0;
 
-  .navbar-vertical-align(23px, @navbar-height-base);
+  .navbar-vertical-align(28px, @navbar-height-base);
 
   @media (min-width: @grid-float-breakpoint) {
     margin-left: 21px;
@@ -863,7 +863,7 @@
   }
 
   .navbar-text {
-    .navbar-vertical-align(23px; @navbar-height-large);
+    .navbar-vertical-align(28px; @navbar-height-large);
   }
 
   .navbar-btn {
