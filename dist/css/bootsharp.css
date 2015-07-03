@@ -4648,7 +4648,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-color: #3f3f3f;
   }
 .navbar-inverse .navbar-nav > .open > .dropdown-menu > li > a {
-  padding: 6px 9px;
+  padding: 10px;
   color: #dfdfdf;
   border-radius: 0;
   }
