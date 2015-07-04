@@ -4645,7 +4645,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   border-bottom-color: #fff;
   }
 .navbar-inverse .navbar-nav > .open > .dropdown-menu {
-  background-color: #3f3f3f;
+  background-color: #282928;
   }
 .navbar-inverse .navbar-nav > .open > .dropdown-menu > li > a {
   padding: 10px;
@@ -4655,7 +4655,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .open > .dropdown-menu > li > a:hover,
 .navbar-inverse .navbar-nav > .open > .dropdown-menu > li > a:focus {
   color: #fff;
-  background-color: #282928;
+  background-color: #5a5d5a;
   }
 .navbar-inverse .navbar-nav > .open > .dropdown-menu > .divider {
   height: 2px;
