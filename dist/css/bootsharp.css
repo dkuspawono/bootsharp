@@ -362,20 +362,20 @@
   }
 body {
   font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  line-height: 1.72222;
+  font-size: 14px;
+  line-height: 1.4;
   color: #282928;
   background-color: #fff;
   }
 a {
-  color: #16a085;
+  color: #a0cc41;
   text-decoration: none;
   -webkit-transition: .25s;
           transition: .25s;
   }
 a:hover,
 a:focus {
-  color: #1abc9c;
+  color: #88b12f;
   text-decoration: none;
   }
 a:focus {
@@ -389,7 +389,7 @@ a:focus {
   max-width: 100%;
   height: auto;
   padding: 4px;
-  line-height: 1.72222;
+  line-height: 1.4;
   background-color: #fff;
   border: 2px solid #bdc3c7;
   border-radius: 0;
@@ -398,7 +398,7 @@ a:focus {
   }
 .img-comment {
   margin: 24px 0;
-  font-size: 15px;
+  font-size: 12px;
   font-style: italic;
   line-height: 1.2;
   }
@@ -436,56 +436,56 @@ h6 small,
 h1,
 h2,
 h3 {
-  margin-top: 30px;
-  margin-bottom: 15px;
+  margin-top: 19px;
+  margin-bottom: 9.5px;
   }
 h4,
 h5,
 h6 {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 9.5px;
+  margin-bottom: 9.5px;
   }
 h6 {
   font-weight: normal;
   }
 h1,
 .h1 {
-  font-size: 61px;
+  font-size: 36px;
   }
 h2,
 .h2 {
-  font-size: 53px;
+  font-size: 30px;
   }
 h3,
 .h3 {
-  font-size: 40px;
+  font-size: 24px;
   }
 h4,
 .h4 {
-  font-size: 29px;
+  font-size: 18px;
   }
 h5,
 .h5 {
-  font-size: 28px;
+  font-size: 16px;
   }
 h6,
 .h6 {
-  font-size: 24px;
+  font-size: 14px;
   }
 p {
-  margin: 0 0 15px;
-  font-size: 18px;
-  line-height: 1.72222;
+  margin: 0 0 9.5px;
+  font-size: 14px;
+  line-height: 1.4;
   }
 .lead {
-  margin-bottom: 30px;
-  font-size: 28px;
+  margin-bottom: 19px;
+  font-size: 21px;
   font-weight: 300;
   line-height: 1.46428571;
   }
 @media (min-width: 768px) {
   .lead {
-    font-size: 30.006px;
+    font-size: 23.338px;
     }
   }
 small,
@@ -561,20 +561,20 @@ a.bg-danger:hover {
   background-color: #e4b9b9;
   }
 .page-header {
-  padding-bottom: 14px;
-  margin: 60px 0 30px;
+  padding-bottom: 8.5px;
+  margin: 38px 0 19px;
   border-bottom: 2px solid #e5e5e5;
   }
 ul,
 ol {
-  margin-bottom: 15px;
+  margin-bottom: 9.5px;
   }
 dl {
-  margin-bottom: 30px;
+  margin-bottom: 19px;
   }
 dt,
 dd {
-  line-height: 1.72222;
+  line-height: 1.4;
   }
 @media (min-width: 768px) {
   .dl-horizontal dt {
@@ -590,20 +590,20 @@ abbr[data-original-title] {
   }
 blockquote {
   padding: 0 0 0 16px;
-  margin: 0 0 30px;
+  margin: 0 0 19px;
   border-left: 3px solid #e5e5e5;
   }
 blockquote p {
   margin-bottom: .4em;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: normal;
   line-height: 1.55;
   }
 blockquote small,
 blockquote .small {
-  font-size: 18px;
+  font-size: 14px;
   font-style: italic;
-  line-height: 1.72222;
+  line-height: 1.4;
   color: inherit;
   }
 blockquote small:before,
@@ -620,8 +620,8 @@ blockquote.pull-right small:after {
   content: "";
   }
 address {
-  margin-bottom: 30px;
-  line-height: 1.72222;
+  margin-bottom: 19px;
+  line-height: 1.4;
   }
 sub,
 sup {
@@ -649,10 +649,10 @@ kbd {
   box-shadow: none;
   }
 pre {
-  padding: 8px;
-  margin: 0 0 15px;
-  font-size: 13px;
-  line-height: 1.72222;
+  padding: 4.33333333px;
+  margin: 0 0 9.5px;
+  font-size: 9px;
+  line-height: 1.4;
   color: inherit;
   white-space: pre;
   background-color: #fff;
@@ -666,7 +666,7 @@ pre {
   display: block;
   padding: 4px;
   margin-bottom: 5px;
-  line-height: 1.72222;
+  line-height: 1.4;
   background-color: #fff;
   border: 2px solid #bdc3c7;
   border-radius: 0;
@@ -684,7 +684,7 @@ pre {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #16a085;
+  border-color: #a0cc41;
   }
 .thumbnail .caption {
   padding: 9px;
@@ -692,7 +692,7 @@ a.thumbnail.active {
   }
 .btn {
   padding: 10px 15px;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: normal;
   line-height: 1.4;
   border: none;
@@ -1094,11 +1094,11 @@ fieldset[disabled] .btn-inverse.active {
   padding-left: 30px;
   }
 .btn-link {
-  color: #16a085;
+  color: #a0cc41;
   }
 .btn-link:hover,
 .btn-link:focus {
-  color: #1abc9c;
+  color: #88b12f;
   text-decoration: underline;
   background-color: transparent;
   }
@@ -1112,28 +1112,28 @@ fieldset[disabled] .btn-link:focus {
 .btn-hg,
 .btn-group-hg > .btn {
   padding: 13px 20px;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 1.227;
   border-radius: 0;
   }
 .btn-lg,
 .btn-group-lg > .btn {
   padding: 10px 19px;
-  font-size: 17px;
+  font-size: 20px;
   line-height: 1.471;
   border-radius: 0;
   }
 .btn-sm,
 .btn-group-sm > .btn {
   padding: 9px 13px;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.385;
   border-radius: 0;
   }
 .btn-xs,
 .btn-group-xs > .btn {
   padding: 6px 9px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.083;
   border-radius: 0;
   }
@@ -1147,7 +1147,7 @@ fieldset[disabled] .btn-link:focus {
   }
 [class*="btn-social-"] {
   padding: 10px 15px;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.077;
   border-radius: 0;
   }
@@ -1296,22 +1296,22 @@ legend {
   display: block;
   width: 100%;
   padding: 0;
-  margin-bottom: 30px / 2;
-  font-size: 24px;
+  margin-bottom: 19px / 2;
+  font-size: 27.2px;
   line-height: inherit;
   color: inherit;
   border-bottom: none;
   }
 textarea {
   padding: 5px 11px;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 24px;
   }
 input[type="search"] {
   -webkit-appearance: none !important;
   }
 label {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: normal;
   line-height: 2.3;
   }
@@ -1333,7 +1333,7 @@ label {
   height: 42px;
   padding: 8px 12px;
   font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.467;
   color: #282928;
   border: 2px solid #bdc3c7;
@@ -1381,7 +1381,7 @@ fieldset[disabled] .select2-search input[type="text"] {
 .select2-search input[type="text"] {
   height: 35px;
   padding: 6px 10px;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.462;
   border-radius: 0;
   }
@@ -1407,7 +1407,7 @@ select[multiple].select2-search input[type="text"] {
 .form-group-lg .select2-search input[type="text"] {
   height: 45px;
   padding: 10px 15px;
-  font-size: 17px;
+  font-size: 20px;
   line-height: 1.235;
   border-radius: 0;
   }
@@ -1432,7 +1432,7 @@ select[multiple].form-group-lg .select2-search input[type="text"] {
 .form-horizontal .form-group-hg .select2-search input[type="text"] {
   height: 53px;
   padding: 10px 16px;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 1.318;
   border-radius: 0;
   }
@@ -1456,7 +1456,7 @@ select[multiple].form-group-hg .select2-search input[type="text"] {
   right: 2px;
   padding: 0 12px 0 0;
   margin-top: 1px;
-  font-size: 17px;
+  font-size: 19px;
   line-height: 36px;
   color: #9b9b9b;
   pointer-events: none;
@@ -1468,7 +1468,7 @@ select[multiple].form-group-hg .select2-search input[type="text"] {
   width: auto;
   height: 48px;
   padding-right: 16px;
-  font-size: 20px;
+  font-size: 23px;
   line-height: 48px;
   }
 .input-lg + .form-control-feedback,
@@ -1476,7 +1476,7 @@ select[multiple].form-group-hg .select2-search input[type="text"] {
   width: auto;
   height: 40px;
   padding-right: 15px;
-  font-size: 18px;
+  font-size: 21px;
   line-height: 40px;
   }
 .input-sm + .form-control-feedback,
@@ -1623,7 +1623,7 @@ fieldset[disabled] .select2-search input[type="text"] + .form-control-feedback,
   }
 .help-block {
   margin-bottom: 5px;
-  font-size: 14px;
+  font-size: 16px;
   color: #646768;
   }
 .form-group {
@@ -1656,21 +1656,21 @@ fieldset[disabled] .select2-search input[type="text"] + .form-control-feedback,
   .form-horizontal .form-group-hg .control-label {
     padding-top: 2px;
     padding-bottom: 0;
-    font-size: 22px;
+    font-size: 24px;
     }
   }
 @media (min-width: 768px) {
   .form-horizontal .form-group-lg .control-label {
     padding-top: 3px;
     padding-bottom: 2px;
-    font-size: 17px;
+    font-size: 20px;
     }
   }
 @media (min-width: 768px) {
   .form-horizontal .form-group-sm .control-label {
     padding-top: 2px;
     padding-bottom: 2px;
-    font-size: 13px;
+    font-size: 14px;
     }
   }
 .input-group .form-control,
@@ -1683,7 +1683,7 @@ fieldset[disabled] .select2-search input[type="text"] + .form-control-feedback,
 .input-group-hg > .select2-search input[type="text"] {
   height: 53px;
   padding: 10px 16px;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 1.318;
   border-radius: 0;
   }
@@ -1710,7 +1710,7 @@ select[multiple].input-group-hg > .select2-search input[type="text"] {
 .input-group-lg > .select2-search input[type="text"] {
   height: 45px;
   padding: 10px 15px;
-  font-size: 17px;
+  font-size: 20px;
   line-height: 1.235;
   border-radius: 0;
   }
@@ -1737,7 +1737,7 @@ select[multiple].input-group-lg > .select2-search input[type="text"] {
 .input-group-sm > .select2-search input[type="text"] {
   height: 35px;
   padding: 6px 10px;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.462;
   border-radius: 0;
   }
@@ -1760,7 +1760,7 @@ select[multiple].input-group-sm > .select2-search input[type="text"] {
   }
 .input-group-addon {
   padding: 10px 12px;
-  font-size: 15px;
+  font-size: 17px;
   color: #fff;
   text-align: center;
   background-color: #bdc3c7;
@@ -2001,7 +2001,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   position: relative;
   padding-left: 32px;
   margin-bottom: 12px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
   -webkit-transition: color .25s linear;
           transition: color .25s linear;
@@ -2298,7 +2298,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   padding: 6px 21px;
   margin: 0 5px 5px 0;
   overflow: hidden;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 15px;
   color: #737473;
   vertical-align: middle;
@@ -2353,7 +2353,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   height: 29px;
   padding: 0;
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
   color: #282928;
   vertical-align: top;
   background-color: transparent;
@@ -2416,7 +2416,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 .twitter-typeahead .tt-suggestion p {
   padding: 6px 14px;
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.429;
   }
 .twitter-typeahead .tt-suggestion:first-child p,
@@ -2496,7 +2496,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 .ui-slider-value {
   float: right;
   margin-top: 12px;
-  font-size: 13px;
+  font-size: 14px;
   }
 .ui-slider-value.first {
   float: left;
@@ -2662,7 +2662,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 .pagination li.next > span {
   min-width: auto;
   padding: 12px 17px;
-  font-size: 16px;
+  font-size: 18px;
   background-color: transparent;
   border-right: 2px solid #e3e3e3;
   }
@@ -2708,7 +2708,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   min-width: 41px;
   min-height: 41px;
   padding: 12px 10px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 16px;
   color: #fff;
   text-align: center;
@@ -2736,7 +2736,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   padding-right: 23px;
   padding-left: 23px;
   margin-right: 8px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.429;
   }
 .pagination > .btn.previous [class*="fui-"],
@@ -3054,7 +3054,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   height: 57px;
   padding: 0;
   margin: 0 0 20px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   list-style-type: none;
   }
@@ -3128,7 +3128,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   }
 .tooltip {
   z-index: 1070;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.286;
   }
 .tooltip.in {
@@ -3197,7 +3197,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   min-width: 220px;
   padding: 0;
   margin-top: 9px;
-  font-size: 14px;
+  font-size: 16px;
   background-color: #d3d3d3;
   border: none;
   border-radius: 0;
@@ -3267,7 +3267,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   }
 .dropdown-header {
   padding: 8px 16px;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.538;
   color: rgba(40, 41, 40, .6);
   text-transform: uppercase;
@@ -3357,7 +3357,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   display: inline-block;
   width: 100%;
   padding: 10px 39px 10px 15px;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: normal;
   line-height: 1.4;
   border: none;
@@ -3585,10 +3585,10 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   border-top-color: #fff;
   }
 .select2-container.select-hg > .select2-choice {
-  min-height: 53px;
+  min-height: 55px;
   padding: 13px 20px;
   padding-right: 49px;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 1.227;
   border-radius: 0;
   }
@@ -3604,10 +3604,10 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   top: 2px;
   }
 .select2-container.select-lg > .select2-choice {
-  min-height: 45px;
+  min-height: 49px;
   padding: 10px 19px;
   padding-right: 47px;
-  font-size: 17px;
+  font-size: 20px;
   line-height: 1.471;
   border-radius: 0;
   }
@@ -3616,10 +3616,10 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   left: 18px;
   }
 .select2-container.select-sm > .select2-choice {
-  min-height: 36px;
+  min-height: 37px;
   padding: 9px 13px;
   padding-right: 35px;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.385;
   border-radius: 0;
   }
@@ -3673,7 +3673,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   padding: 6px 21px;
   margin: 0 5px 4px 0;
   overflow: hidden;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 15px;
   color: #fff;
   vertical-align: middle;
@@ -3702,7 +3702,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   z-index: 2;
   width: 100%;
   padding-right: 10px;
-  font-size: 12px;
+  font-size: 14px;
   color: #fff;
   text-align: right;
   text-decoration: none;
@@ -3727,7 +3727,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   height: 29px;
   padding: 0;
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
   color: #282928;
   vertical-align: top;
   background-color: transparent;
@@ -3893,7 +3893,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   }
 .select2-drop .select2-result-with-children > .select2-result-label {
   margin-top: 5px;
-  font-size: 13px;
+  font-size: 14px;
   color: rgba(40, 41, 40, .6);
   text-transform: uppercase;
   }
@@ -4054,9 +4054,9 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   font-size: 20px;
   }
 .navbar {
-  min-height: 53px;
-  margin-bottom: 30px;
-  font-size: 16px;
+  min-height: 60px;
+  margin-bottom: 19px;
+  font-size: 18px;
   border: none;
   border-radius: 0;
   }
@@ -4136,14 +4136,14 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   border-width: 0;
   }
 .navbar-brand {
-  height: 53px;
-  padding: 14px 21px;
-  font-size: 24px;
+  height: 60px;
+  padding: 17.5px 21px;
+  font-size: 27px;
   font-weight: 700;
   line-height: 1.042;
   }
 .navbar-brand > [class*="fui-"] {
-  font-size: 19px;
+  font-size: 21px;
   line-height: 1.263;
   vertical-align: top;
   }
@@ -4154,19 +4154,19 @@ fieldset[disabled] .input-group-btn .btn-default.active {
     }
   }
 .navbar-toggle {
-  height: 53px;
+  height: 60px;
   padding: 0 21px;
   margin: 0 0 0 21px;
-  line-height: 53px;
+  line-height: 60px;
   color: #282928;
   border: none;
   }
 .navbar-toggle:before {
   font-family: "bootsharp-Icons";
-  font-size: 22px;
+  font-size: 24px;
   font-style: normal;
   font-weight: normal;
-  color: #16a085;
+  color: #a0cc41;
   content: "\e61a";
   -webkit-transition: color .25s linear;
           transition: color .25s linear;
@@ -4180,7 +4180,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   }
 .navbar-toggle:hover:before,
 .navbar-toggle:focus:before {
-  color: #1abc9c;
+  color: #88b12f;
   }
 .navbar-toggle .icon-bar {
   display: none;
@@ -4194,10 +4194,10 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   margin: 0;
   }
 .navbar-nav > li > a {
-  padding: 15px 21px;
-  font-size: 16px;
+  padding: 16px 21px;
+  font-size: 18px;
   font-weight: 700;
-  line-height: 23px;
+  line-height: 28px;
   }
 .navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus,
@@ -4223,7 +4223,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
     padding: 7px 15px 7px 31px !important;
     }
   .navbar-nav .open .dropdown-menu > li > a {
-    line-height: 23px;
+    line-height: 28px;
     }
   .navbar-nav > li > a {
     padding-top: 7px;
@@ -4233,7 +4233,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 .navbar-input {
   height: 35px;
   padding: 5px 10px;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.4;
   border-radius: 0;
   }
@@ -4246,9 +4246,9 @@ select[multiple].navbar-input {
   height: auto;
   }
 .navbar-form {
-  padding-top: 9px;
+  padding-top: 12.5px;
   padding-right: 19px;
-  padding-bottom: 9px;
+  padding-bottom: 12.5px;
   padding-left: 19px;
   margin-top: 0;
   margin-bottom: 0;
@@ -4266,7 +4266,7 @@ select[multiple].navbar-input {
 .navbar-form .select2-search input[type="text"] {
   height: 35px;
   padding: 5px 10px;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.4;
   border-radius: 0;
   }
@@ -4311,12 +4311,12 @@ select[multiple].navbar-form .select2-search input[type="text"] {
 .navbar-form .form-control,
 .navbar-form .select2-search input[type="text"] {
   display: table-cell;
-  font-size: 15px;
+  font-size: 17px;
   border-radius: 5px;
   }
 .navbar-form .form-group ~ .btn {
   margin-left: 5px;
-  font-size: 15px;
+  font-size: 17px;
   border-radius: 5px;
   }
 .navbar-form .form-group + .btn {
@@ -4340,7 +4340,6 @@ select[multiple].navbar-form .select2-search input[type="text"] {
   }
 .navbar-nav > li > .dropdown-menu {
   min-width: 100%;
-  margin-top: 9px;
   border-radius: 0;
   }
 @media (max-width: 767px) {
@@ -4358,11 +4357,11 @@ select[multiple].navbar-form .select2-search input[type="text"] {
   background-color: transparent;
   }
 .navbar-text {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.438;
   color: #282928;
   }
@@ -4376,16 +4375,16 @@ select[multiple].navbar-form .select2-search input[type="text"] {
     }
   }
 .navbar-btn {
-  margin-top: 6px;
-  margin-bottom: 6px;
+  margin-top: 9.5px;
+  margin-bottom: 9.5px;
   }
 .navbar-btn.btn-sm {
-  margin-top: 9px;
-  margin-bottom: 8px;
+  margin-top: 12.5px;
+  margin-bottom: 11.5px;
   }
 .navbar-btn.btn-xs {
-  margin-top: 14px;
-  margin-bottom: 14px;
+  margin-top: 17.5px;
+  margin-bottom: 17.5px;
   }
 .navbar-unread,
 .navbar-new {
@@ -4642,22 +4641,21 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   border-bottom-color: #fff;
   }
 .navbar-inverse .navbar-nav > .dropdown > a .caret {
-  border-top-color: #3f3f3f;
-  border-bottom-color: #3f3f3f;
+  border-top-color: #fff;
+  border-bottom-color: #fff;
   }
 .navbar-inverse .navbar-nav > .open > .dropdown-menu {
-  padding: 3px 4px;
   background-color: #282928;
   }
 .navbar-inverse .navbar-nav > .open > .dropdown-menu > li > a {
-  padding: 6px 9px;
+  padding: 10px;
   color: #dfdfdf;
   border-radius: 0;
   }
 .navbar-inverse .navbar-nav > .open > .dropdown-menu > li > a:hover,
 .navbar-inverse .navbar-nav > .open > .dropdown-menu > li > a:focus {
   color: #fff;
-  background-color: #a0cc41;
+  background-color: #5a5d5a;
   }
 .navbar-inverse .navbar-nav > .open > .dropdown-menu > .divider {
   height: 2px;
@@ -4696,7 +4694,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-form .form-control,
 .navbar-inverse .navbar-form .select2-search input[type="text"] {
   color: #4a4a4a;
-  background-color: #191a19;
+  background-color: #f0f0f0;
   border-color: transparent;
   }
 .navbar-inverse .navbar-form .form-control::-moz-placeholder,
@@ -4764,7 +4762,7 @@ fieldset[disabled] .navbar-inverse .navbar-form .btn.active {
   }
 .navbar-inverse .navbar-form .input-group-btn .btn {
   color: #4a4a4a;
-  background-color: #191a19;
+  background-color: #f0f0f0;
   border-color: transparent;
   }
 .navbar-inverse .navbar-form .input-group.focus .form-control,
@@ -4845,51 +4843,51 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
     }
   }
 .navbar-lg {
-  min-height: 76px;
+  min-height: 80px;
   }
 .navbar-lg .navbar-brand {
-  height: 76px;
-  padding-top: 26px;
-  padding-bottom: 26px;
+  height: 80px;
+  padding-top: 28px;
+  padding-bottom: 28px;
   line-height: 1;
   }
 .navbar-lg .navbar-brand > [class*="fui-"] {
-  font-size: 24px;
+  font-size: 27px;
   line-height: 1;
   }
 .navbar-lg .navbar-nav > li > a {
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.6;
   }
 @media (min-width: 768px) {
   .navbar-lg .navbar-nav > li > a {
-    padding-top: 26px;
-    padding-bottom: 26px;
+    padding-top: 28px;
+    padding-bottom: 28px;
     }
   }
 .navbar-lg .navbar-toggle {
-  height: 76px;
-  line-height: 76px;
+  height: 80px;
+  line-height: 80px;
   }
 .navbar-lg .navbar-form {
-  padding-top: 20.5px;
-  padding-bottom: 20.5px;
+  padding-top: 22.5px;
+  padding-bottom: 22.5px;
   }
 .navbar-lg .navbar-text {
-  padding-top: 26.5px;
-  padding-bottom: 26.5px;
+  padding-top: 26px;
+  padding-bottom: 26px;
   }
 .navbar-lg .navbar-btn {
-  margin-top: 17.5px;
-  margin-bottom: 17.5px;
+  margin-top: 19.5px;
+  margin-bottom: 19.5px;
   }
 .navbar-lg .navbar-btn.btn-sm {
-  margin-top: 20.5px;
-  margin-bottom: 20.5px;
+  margin-top: 22.5px;
+  margin-bottom: 22.5px;
   }
 .navbar-lg .navbar-btn.btn-xs {
-  margin-top: 25.5px;
-  margin-bottom: 25.5px;
+  margin-top: 27.5px;
+  margin-bottom: 27.5px;
   }
 .bootstrap-switch {
   position: relative;
@@ -4897,7 +4895,7 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
   width: 80px;
   height: 29px;
   overflow: hidden;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 29px;
   text-align: left;
   vertical-align: middle;
@@ -5157,7 +5155,7 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
   }
 .share li {
   padding-top: 11px;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.4;
   }
 .share li:before,
@@ -5340,7 +5338,7 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
   left: 50%;
   margin: -.5em 0 0 -.5em;
   font-family: "bootsharp-Icons";
-  font-size: 16px;
+  font-size: 18px;
   color: #a0cc41;
   -webkit-transition: color .25s, opacity .25s;
           transition: color .25s, opacity .25s;
@@ -5408,7 +5406,7 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
   left: 50%;
   margin: 0 0 0 -.5em;
   font-family: "bootsharp-Icons";
-  font-size: 16px;
+  font-size: 18px;
   line-height: 18px;
   -webkit-transition: color .25s, opacity .25s;
           transition: color .25s, opacity .25s;
@@ -5509,7 +5507,7 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
   width: auto;
   height: auto;
   font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 300;
   line-height: normal;
   }
@@ -5517,7 +5515,7 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
   position: absolute;
   top: 11px;
   right: 114px;
-  font-size: 14px;
+  font-size: 16px;
   color: #535453;
   }
 .vjs-remaining-time {
@@ -5550,7 +5548,7 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
   left: 50%;
   margin: 0 0 0 -.5em;
   font-family: "bootsharp-Icons";
-  font-size: 16px;
+  font-size: 18px;
   line-height: 18px;
   content: "\e619";
   -webkit-transition: color .25s, opacity .25s;
@@ -5631,7 +5629,7 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
   position: relative;
   padding: 18px 42px 21px 25px;
   margin-top: 2px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.214;
   cursor: pointer;
   background: #282928;
@@ -5667,7 +5665,7 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
   }
 .todo li.todo-done:after {
   font-family: 'bootsharp-Icons';
-  font-size: 12px;
+  font-size: 14px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -5748,7 +5746,7 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
 .palette {
   padding: 15px;
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.214;
   color: #fff;
   text-transform: uppercase;

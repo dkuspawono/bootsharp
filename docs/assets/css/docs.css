@@ -188,7 +188,7 @@ ol.linenums {
   }
 .demo-content.demo-content-article li {
   padding: 0 0 5px;
-  line-height: 35px;
+  line-height: 27px;
   }
 .demo-content-wide {
   margin: 0 20px;
@@ -296,7 +296,7 @@ ol.linenums {
   display: inline-block;
   }
 .demo-labels {
-  font-size: 19px;
+  font-size: 14px;
   }
 .demo-labels .visible-lg {
   display: inline !important;
@@ -383,7 +383,7 @@ ol.linenums {
   padding: 0;
   margin: 0;
   overflow: auto;
-  font-size: 14px;
+  font-size: 10px;
   line-height: 1.214;
   list-style-type: none;
   background-color: #f2f2f2;
@@ -420,7 +420,7 @@ ol.linenums {
   .demo-headline {
     padding-right: 15px;
     padding-left: 15px;
-    font-size: 65px !important;
+    font-size: 51px !important;
     text-align: left;
     }
   .demo-inline {
