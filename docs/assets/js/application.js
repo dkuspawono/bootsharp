@@ -44,9 +44,6 @@ String.prototype.repeat = function (num) {
     $('[data-toggle="checkbox"]').radiocheck();
     $('[data-toggle="radio"]').radiocheck();
 
-    // Tooltips
-    $('[data-toggle=tooltip]').tooltip('show');
-
     // jQuery UI Sliders
     var $slider = $('#slider');
     if ($slider.length > 0) {
