@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.3.1
+ * Fixed unresolved merge conflict
+
 ## 0.3
  * Improved button colors
  * Removed Lato font

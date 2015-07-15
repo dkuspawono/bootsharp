@@ -1,6 +1,6 @@
 {
   "name": "bootsharp",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "main": [
     "less/bootsharp.less",
     "dist/css/bootsharp.css",
