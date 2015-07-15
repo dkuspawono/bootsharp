@@ -1,5 +1,5 @@
 /*!
- * Bootsharp v0.1.0 (http://sslcom.github.io/Bootsharp)
+ * Bootsharp v0.3.0 (http://sslcom.github.io/Bootsharp)
  * Copyright 2013-2015 SSL Corp.
  */
 /*!
