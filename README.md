@@ -15,8 +15,8 @@ To get started, check out [getting started page](http://sslcom.github.io/Bootsha
 Three quick start options are available:
 
 - [Download the latest release](https://github.com/designmodo/flat-ui/archive/2.2.2.zip).
-- Clone the repo: `git clone https://github.com/SSLcom/Bootsharp.git`.
-- <s>Install with [Bower](http://bower.io): `bower install bootsharp`</s> Package is currently not on Bower.
+- Clone the repo: `git clone https://github.com/SSLcom/Bootsharp.git`
+- Install with [Bower](http://bower.io): `bower install bootsharp`
 
 Run `npm install` and `bower install` to install dependencies.
 
@@ -41,7 +41,6 @@ Bootsharp/
 │   |   ├── bootsharp.js
 │   |   └── bootsharp.min.js
 |   ├── fonts/
-|   |   ├── lato/
 |   |   └── glyphicons/
 |   |        ├── bootsharp-icons-regular.eot
 |   |        ├── bootsharp-icons-regular.svg
@@ -57,7 +56,6 @@ Bootsharp/
 |   └── template.html
 ├── fonts/
 |   ├── glyphicons/
-|   └── lato/
 ├── img/
 ├── js/
 └── less/
@@ -119,7 +117,3 @@ You can build Bootsharp using `grunt` and serve up a local server with watcher u
 Bootsharp is licensed under a MIT License - http://opensource.org/licenses/mit-license.html.
 
 You are allowed to use these elements anywhere you want, however we’ll highly appreciate if you will link to our [website](https://www.ssl.com) and secure your site with a [SSL.com](https://www.ssl.com) certificate.
-
-## Typeface
-
-Bootsharp is made using the Lato typeface, which can be downloaded for free here: http://www.google.com/webfonts/specimen/Lato
