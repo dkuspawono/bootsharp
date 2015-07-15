@@ -3,6 +3,11 @@
  * Copyright 2013-2015 SSL Corp.
  */
 
+/*!
+ * Bootsharp v0.1.0 (http://sslcom.github.io/Bootsharp)
+ * Copyright 2013-2015 SSL Corp.
+ */
+
 /* Prettyfy Theme */
 .prettyprint {
   padding: 15px 21px;
@@ -154,15 +159,6 @@ ol.linenums {
   position: relative;
   padding-left: 25%;
   margin-bottom: 40px;
-  }
-.demo-section-title {
-  margin: 10px 0;
-  font: 900 32px/40px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  }
-.demo-panel-title {
-  padding-top: 20px;
-  margin: 2px 0 20px;
-  font: bold 23px/40px "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 .demo-panel-title small {
   font-size: inherit;

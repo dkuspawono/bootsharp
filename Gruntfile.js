@@ -108,30 +108,6 @@ module.exports = function (grunt) {
         files: {
           'dist/css/<%= pkg.name %>.css': 'less/<%= pkg.name %>.less'
         }
-      },
-      compileDocs: {
-        options: {
-          strictMath: true,
-          sourceMap: true,
-          outputSourceFiles: true,
-          sourceMapURL: 'docs.css.map',
-          sourceMapFilename: 'docs/assets/css/docs.css.map'
-        },
-        files: {
-          'docs/assets/css/docs.css': 'docs/assets/css/src/docs.less'
-        }
-      },
-      compileDemo: {
-        options: {
-          strictMath: true,
-          sourceMap: true,
-          outputSourceFiles: true,
-          sourceMapURL: 'demo.css.map',
-          sourceMapFilename: 'docs/assets/css/demo.css.map'
-        },
-        files: {
-          'docs/assets/css/demo.css': 'docs/assets/css/src/demo.less'
-        }
       }
     },
 
@@ -244,7 +220,8 @@ module.exports = function (grunt) {
           'respond/dest/respond.min.js',
           'html5shiv/dist/html5shiv.js',
           'videojs/dist/video-js/video.js',
-          'videojs/dist/video-js/video-js.swf'
+          'videojs/dist/video-js/video-js.swf',
+          'bootstrap/dist/js/bootstrap.min.js'
         ],
         dest: 'dist/js/vendor/'
       },
@@ -257,11 +234,14 @@ module.exports = function (grunt) {
         ],
         dest: 'dist/css/vendor/'
       },
+
       docsVendorJS: {
         expand: true,
         flatten: true,
         cwd: '<%= bower_conf.directory %>',
-        src: 'google-code-prettify/src/prettify.js',
+        src: [
+          'google-code-prettify/src/prettify.js'
+        ],
         dest: 'docs/assets/js/'
       }
     },
