@@ -10534,7 +10534,7 @@ jQuery('.input-group').on('focus', '.form-control', function () {
   jQuery(this).closest('.input-group, .form-group').removeClass('focus');
 });
 /* ============================================================
- * flatui-radiocheck v0.1.0
+ * flatui-radiocheck v0.2.0
  * ============================================================ */
 
 +function (global, $) {

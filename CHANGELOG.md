@@ -9,7 +9,8 @@
  * Removed pillbox
  * Removed image icons
   
-##0.2
+## 0.2
+>>>>>>> master
  * Removed all rounded corners
  * Added branding and modified index.html
  * Added official SSL.com colors
