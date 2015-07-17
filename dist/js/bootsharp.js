@@ -10533,6 +10533,7 @@ jQuery('.input-group').on('focus', '.form-control', function () {
 }).on('blur', '.form-control', function () {
   jQuery(this).closest('.input-group, .form-group').removeClass('focus');
 });
+
 /* ============================================================
  * flatui-radiocheck v0.2.0
  * ============================================================ */
