@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.2
+ * Increased line-height for easier to read paragraphs
+ * Added helper functions for text styling
+
 ## 0.3.1
  * Fixed unresolved merge conflict
 
