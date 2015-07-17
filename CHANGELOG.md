@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.3.3
+ * Fixed compilation issues
+
 ## 0.3.2
  * Increased line-height for easier to read paragraphs
  * Added helper functions for text styling
