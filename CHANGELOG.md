@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.3.4
+ * Fixed compilation issues
+
 ## 0.3.3
  * Fixed compilation issues
  * Fixed bold helper class
