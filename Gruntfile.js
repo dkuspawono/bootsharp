@@ -181,7 +181,7 @@ module.exports = function (grunt) {
     },
 
     csscomb: {
-      options: {
+      options
         config: 'less/.csscomb.json'
       },
       dist: {
