@@ -5573,7 +5573,7 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
 .bold,
 .strong,
 .b {
-  font-weight: 700;
+  font-weight: bold;
   }
 .i,
 .italic,
