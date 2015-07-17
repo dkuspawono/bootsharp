@@ -2,6 +2,7 @@
 
 ## 0.3.3
  * Fixed compilation issues
+ * Fixed bold helper class
 
 ## 0.3.2
  * Increased line-height for easier to read paragraphs
