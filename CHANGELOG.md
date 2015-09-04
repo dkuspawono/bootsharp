@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.3.5
+ * Increased font size
+
 ## 0.3.4
  * Fixed compilation issues
 
