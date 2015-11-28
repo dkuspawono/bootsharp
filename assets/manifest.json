@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "bootsharp.css": {
+      "files": ["stylesheets/main.scss"],
+      "main": true
+    }
+  }
+}
