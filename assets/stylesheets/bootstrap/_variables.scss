@@ -112,12 +112,12 @@ $border-radius-small:       2px !default;
 //** Global color for active items (e.g., navs or dropdowns).
 $component-active-color:    #fff !default;
 //** Global background color for active items (e.g., navs or dropdowns).
-$component-active-bg:       lighten($brand-primary, 10%) !default;
+$component-active-bg:       $brand-primary !default;//desaturate($brand-primary, 10%) !default;
 
 //** Width of the `border` for generating carets that indicator dropdowns.
 $caret-width-base:          4px !default;
 //** Carets increase slightly in size for larger components.
-$caret-width-large:         4px !default;
+$caret-width-large:         5px !default;
 
 
 //== Tables
@@ -148,7 +148,7 @@ $table-border-color:            #ddd !default;
 $btn-font-weight:                normal !default;
 
 $btn-default-color:              #666 !default;
-$btn-default-bg:                 transparent !default;
+$btn-default-bg:                 #fff !default;
 $btn-default-border:             #bbb !default;
 
 $btn-primary-color:              #fff !default;
@@ -203,7 +203,7 @@ $input-border-radius-large:      $border-radius-large !default;
 $input-border-radius-small:      $border-radius-small !default;
 
 //** Border color for inputs on focus
-$input-border-focus:             lighten($brand-primary, 10%) !default;
+$input-border-focus:             desaturate($brand-primary, 20%) !default;
 
 //** Placeholder text color
 $input-color-placeholder:        #999 !default;
@@ -431,7 +431,7 @@ $nav-disabled-link-hover-color:             $gray-light !default;
 //== Tabs
 $nav-tabs-border-color:                     #ddd !default;
 
-$nav-tabs-link-hover-border-color:          $gray-lighter !default;
+$nav-tabs-link-hover-border-color:          transparent !default;
 
 $nav-tabs-active-link-hover-bg:             $body-bg !default;
 $nav-tabs-active-link-hover-color:          $gray !default;
