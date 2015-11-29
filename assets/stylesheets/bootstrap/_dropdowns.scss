@@ -14,6 +14,8 @@
   border-top:   $caret-width-base solid \9; // IE8
   border-right: $caret-width-base solid transparent;
   border-left:  $caret-width-base solid transparent;
+  padding-top: 8px;
+  margin-top: 8px;
 }
 
 // The dropdown wrapper (div)
@@ -188,6 +190,8 @@
     border-bottom: $caret-width-base dashed;
     border-bottom: $caret-width-base solid \9; // IE8
     content: "";
+    margin-top: 16px;
+    padding-top: 0;
   }
   // Different positioning for bottom up menu
   .dropdown-menu {
