@@ -52,7 +52,7 @@ var project = manifest.getProjectGlobs();
 // CLI options
 var enabled = {
   // Enable static asset revisioning when `--production`
-  rev: argv.production,
+  rev: false,
   // Disable source maps when `--production`
   maps: !argv.production,
   // Fail styles task on error when `--production`
@@ -140,8 +140,7 @@ var writeToManifest = function(directory) {
     .pipe(rev.manifest, revManifest, {
       base: path.dist,
       merge: true
-    })
-    .pipe(gulp.dest, path.dist)();
+    })();
 };
 
 // ## Gulp tasks
