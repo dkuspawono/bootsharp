@@ -90,17 +90,6 @@
 .btn-warning { @include btn-styles($btn-warning-bg); }
 .btn-danger  { @include btn-styles($btn-danger-bg); }
 
-
-//
-// Images
-// --------------------------------------------------
-
-.thumbnail,
-.img-thumbnail {
-  @include box-shadow(0 1px 2px rgba(0,0,0,.075));
-}
-
-
 //
 // Dropdowns
 // --------------------------------------------------
@@ -125,11 +114,6 @@
   @include reset-filter; // Remove gradient in IE<10 to fix bug where dropdowns don't get triggered
   border-radius: $navbar-border-radius;
   @include box-shadow(none);
-
-  .navbar-nav > .open > a,
-  .navbar-nav > .active > a {
-    @include box-shadow(inset 0 3px 9px rgba(0,0,0,.075));
-  }
 }
 .navbar-brand,
 .navbar-nav > li > a {
@@ -140,10 +124,6 @@
 .navbar-inverse {
   @include reset-filter; // Remove gradient in IE<10 to fix bug where dropdowns don't get triggered; see https://github.com/twbs/bootstrap/issues/10257
   border-radius: $navbar-border-radius;
-  .navbar-nav > .open > a,
-  .navbar-nav > .active > a {
-    @include box-shadow(inset 0 3px 9px rgba(0,0,0,.25));
-  }
 
   .navbar-brand,
   .navbar-nav > li > a {
@@ -177,8 +157,6 @@
 // Common styles
 .alert {
   text-shadow: 0 1px 0 rgba(255,255,255,.2);
-  $shadow: inset 0 1px 0 rgba(255,255,255,.25), 0 1px 2px rgba(0,0,0,.05);
-  @include box-shadow($shadow);
 }
 
 // Mixin for generating new styles
@@ -199,7 +177,6 @@
 
 .list-group {
   border-radius: $border-radius-base;
-  @include box-shadow(0 1px 2px rgba(0,0,0,.075));
 }
 .list-group-item.active,
 .list-group-item.active:hover,
@@ -214,20 +191,9 @@
 
 
 //
-// Panels
-// --------------------------------------------------
-
-// Common styles
-.panel {
-  @include box-shadow(0 1px 2px rgba(0,0,0,.05));
-}
-
-//
 // Wells
 // --------------------------------------------------
 
 .well {
   border-color: darken($well-bg, 10%);
-  $shadow: inset 0 1px 3px rgba(0,0,0,.05), 0 1px 0 rgba(255,255,255,.1);
-  @include box-shadow($shadow);
 }
