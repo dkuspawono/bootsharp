@@ -6,25 +6,20 @@
 @mixin button-variant($color, $background, $border) {
   color: $color;
   background-color: $background;
-  border-color: $background;
+  border-color: darken($border, 5%);
   outline: 0;
-
-  &.dropdown-toggle {
-    background-color: darken($background, 10%);
-        border-color: darken($background, 10%);
-  }
 
   &:focus,
   &.focus {
     color: $color;
     background-color: darken($background, 10%);
-        border-color: darken($background, 10%);
+        border-color: darken($border, 10%);
         outline: 0;
   }
   &:hover {
     color: $color;
     background-color: darken($background, 10%);
-        border-color: darken($background, 10%);
+        border-color: darken($border, 10%);
         outline: 0;
   }
   &:active,
@@ -32,7 +27,7 @@
   .open > &.dropdown-toggle {
     color: $color;
     background-color: darken($background, 10%);
-        border-color: darken($background, 10%);
+        border-color: darken($border, 10%);
         outline: 0;
 
     &:hover,
@@ -40,7 +35,7 @@
     &.focus {
       color: $color;
       background-color: darken($background, 17%);
-          border-color: darken($background, 17%);
+          border-color: darken($border, 17%);
           outline: 0;
     }
   }
@@ -56,7 +51,7 @@
     &:focus,
     &.focus {
       background-color: $background;
-          border-color: $background;
+          border-color: $border;
     }
   }
 

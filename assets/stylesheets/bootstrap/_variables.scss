@@ -327,7 +327,7 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
 //** Number of columns in the grid.
 $grid-columns:              12 !default;
 //** Padding between columns. Gets divided in half for the left and right.
-$grid-gutter-width:         28px !default;
+$grid-gutter-width:         32px !default;
 // Navbar collapse
 //** Point at which the navbar becomes uncollapsed.
 $grid-float-breakpoint:     $screen-sm-min !default;
@@ -501,19 +501,19 @@ $jumbotron-heading-font-size:    ceil(($font-size-base * 4.5)) !default;
 
 $state-success-text:             darken($brand-success, 30%) !default;
 $state-success-bg:               lighten($brand-success, 30%) !default;
-$state-success-border:           darken(adjust-hue($state-success-bg, -10), 5%) !default;
+$state-success-border:           darken(adjust-hue($state-success-bg, -10), 30%) !default;
 
 $state-info-text:                darken($brand-info, 30%) !default;
 $state-info-bg:                  lighten($brand-info, 30%) !default;
-$state-info-border:              darken(adjust-hue($state-info-bg, -10), 7%) !default;
+$state-info-border:              darken(adjust-hue($state-info-bg, -10), 30%) !default;
 
 $state-warning-text:             darken($brand-warning, 30%) !default;
 $state-warning-bg:               lighten($brand-warning, 30%) !default;
-$state-warning-border:           darken(adjust-hue($state-warning-bg, -10), 5%) !default;
+$state-warning-border:           darken(adjust-hue($state-warning-bg, -10), 30%) !default;
 
 $state-danger-text:              darken($brand-danger, 30%) !default;
 $state-danger-bg:                lighten($brand-danger, 30%) !default;
-$state-danger-border:            darken(adjust-hue($state-danger-bg, -10), 5%) !default;
+$state-danger-border:            darken(adjust-hue($state-danger-bg, -10), 30%) !default;
 
 
 //== Tooltips
@@ -783,7 +783,7 @@ $badge-active-bg:             #fff !default;
 
 $badge-font-weight:           bold !default;
 $badge-line-height:           1 !default;
-$badge-border-radius:         8px !default;
+$badge-border-radius:         2px !default;
 
 
 //== Breadcrumbs
