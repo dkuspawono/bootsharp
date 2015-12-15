@@ -1,11 +1,11 @@
 {
-  "name": "bootstrap-sass",
-  "version": "3.3.6",
-  "description": "bootstrap-sass is a Sass-powered version of Bootstrap 3, ready to drop right into your Sass powered applications.",
+  "name": "Bootsharp",
+  "version": "0.5.0",
+  "description": "Bootsharp is a beautiful and professional theme for Bootstrap by SSL.com.",
   "main": "assets/javascripts/bootstrap.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/twbs/bootstrap-sass"
+    "url": "git://github.com/SSLcom/Bootsharp"
   },
   "keywords": [
     "bootstrap",
@@ -13,14 +13,11 @@
     "css"
   ],
   "contributors": [
-    "Thomas McDonald",
-    "Tristan Harward",
-    "Peter Gumeson",
-    "Gleb Mazovetskiy"
+    "Aaron Dancer",
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/twbs/bootstrap-sass/issues"
+    "url": "https://github.com/SSLcom/Bootsharp/issues"
   },
   "devDependencies": {
     "asset-builder": "^1.1.0",
