@@ -1,9 +1,5 @@
 {
 	"dependencies": {
-		"bootsharp.min.js": {
-			"files": ["javascripts/bootstrap/*"],
-			"main": true
-		},
 		"bootsharp.min.css": {
 			"files": ["stylesheets/main.scss"],
 			"main": true

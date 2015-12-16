@@ -246,7 +246,6 @@ gulp.task('watch', function() {
 // Generally you should be running `gulp` instead of `gulp build`.
 gulp.task('build', function(callback) {
   runSequence('styles',
-              'scripts',
               ['fonts', 'images'],
               callback);
 });
