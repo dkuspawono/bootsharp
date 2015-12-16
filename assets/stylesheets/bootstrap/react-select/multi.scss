@@ -21,7 +21,7 @@
 	}
 
 	// Items
-	.Select-value {
+	.Select-item {
 		background-color: $select-item-bg;
 		border-radius: $select-item-border-radius;
 		border: 1px solid $select-item-border-color;
@@ -34,19 +34,19 @@
 	}
 
 	// common
-	.Select-value-icon,
-	.Select-value-label {
+	.Select-item-icon,
+	.Select-item-label {
 		display: inline-block;
 		vertical-align: middle;
 	}
 
 	// label
-	.Select-value-label {
+	.Select-item-label {
 		@include border-right-radius( $select-item-border-radius );
 		cursor: default;
 		padding: $select-item-padding-vertical $select-item-padding-horizontal;
 	}
-	a.Select-value-label {
+	a.Select-item-label {
 		color: $select-item-color;
 		cursor: pointer;
 		text-decoration: none;
@@ -57,7 +57,7 @@
 	}
 
 	// icon
-	.Select-value-icon {
+	.Select-item-icon {
 		cursor: pointer;
 		@include border-left-radius( $select-item-border-radius );
 		border-right: 1px solid $select-item-border-color;
@@ -78,13 +78,13 @@
 }
 
 .Select--multi.is-disabled {
-	.Select-value {
+	.Select-item {
 		background-color: $select-item-disabled-bg;
 		border: 1px solid $select-item-disabled-border-color;
 		color: $select-item-disabled-color;
 	}
 	// icon
-	.Select-value-icon {
+	.Select-item-icon {
 		cursor: not-allowed;
 		border-right: 1px solid $select-item-disabled-border-color;
 
