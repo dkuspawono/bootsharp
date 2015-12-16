@@ -84,7 +84,7 @@
 // placeholder
 
 .Select-placeholder,
-:not(.Select--multi) > .Select-control .Select-value {
+:not(.Select--multi) > .Select-control .Select-item {
 	bottom: 0;
 	color: $select-input-placeholder;
 	left: 0;
@@ -102,12 +102,12 @@
 	white-space: nowrap;
 }
 
-.has-value:not(.Select--multi):not(.is-focused) > .Select-control > .Select-value,
-.has-value.is-pseudo-focused:not(.Select--multi) > .Select-control > .Select-value {
-	.Select-value-label {
+.has-value:not(.Select--multi):not(.is-focused) > .Select-control > .Select-item,
+.has-value.is-pseudo-focused:not(.Select--multi) > .Select-control > .Select-item {
+	.Select-item-label {
 		color: $select-text-color;
 	}
-	a.Select-value-label {
+	a.Select-item-label {
 		cursor: pointer;
 		text-decoration: none;
 

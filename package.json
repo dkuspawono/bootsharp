@@ -1,6 +1,6 @@
 {
   "name": "bootsharp",
-  "version": "0.5.3",
+  "version": "0.5.3b",
   "description": "Bootsharp is a beautiful and professional theme for Bootstrap by SSL.com.",
   "main": "assets/stylesheets/main.scss",
   "repository": {

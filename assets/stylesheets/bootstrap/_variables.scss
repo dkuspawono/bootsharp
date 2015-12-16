@@ -916,16 +916,16 @@ $select-loading-color:             $select-text-color !default;
 $select-loading-color-bg:          $select-input-border-color !default;
 
 // multi-select item
-$Select-value-border-radius:        $border-radius-base !default;
-$Select-value-gutter:               4px !default;
-$Select-value-padding-vertical:     2px !default;
-$Select-value-padding-horizontal:   8px !default;
-$Select-value-font-size:            1em !default;
-$Select-value-color:                $state-success-text !default; // pale blue
-$Select-value-bg:                   $state-success-bg !default;
-$Select-value-border-color:         $state-success-border !default;
-$Select-value-hover-color:          darken($Select-value-color, 5%) !default; // pale blue
-$Select-value-hover-bg:             darken($Select-value-bg, 5%) !default;
-$Select-value-disabled-color:       #333 !default;
-$Select-value-disabled-bg:          #fcfcfc !default;
-$Select-value-disabled-border-color: darken($Select-value-disabled-bg, 10%) !default;
+$Select-item-border-radius:        $border-radius-base !default;
+$Select-item-gutter:               4px !default;
+$Select-item-padding-vertical:     2px !default;
+$Select-item-padding-horizontal:   8px !default;
+$Select-item-font-size:            1em !default;
+$Select-item-color:                $state-success-text !default; // pale blue
+$Select-item-bg:                   $state-success-bg !default;
+$Select-item-border-color:         $state-success-border !default;
+$Select-item-hover-color:          darken($Select-item-color, 5%) !default; // pale blue
+$Select-item-hover-bg:             darken($Select-item-bg, 5%) !default;
+$Select-item-disabled-color:       #333 !default;
+$Select-item-disabled-bg:          #fcfcfc !default;
+$Select-item-disabled-border-color: darken($Select-item-disabled-bg, 10%) !default;
