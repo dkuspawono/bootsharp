@@ -14,7 +14,6 @@
 
 // Core CSS
 @import "bootstrap/scaffolding";
-@import "bootstrap/local-fonts";
 @import "bootstrap/type";
 @import "bootstrap/code";
 @import "bootstrap/grid";
@@ -44,6 +43,7 @@
 @import "bootstrap/responsive-embed";
 @import "bootstrap/wells";
 @import "bootstrap/close";
+@import "bootstrap/react-select/default";
 
 // Components w/ JavaScript
 @import "bootstrap/modals";
