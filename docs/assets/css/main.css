@@ -1,0 +1,30 @@
+.sidebar {
+	height: 100%;
+	width: 240px;
+	padding: 20px;
+	border-right: 1px solid #eee;
+}
+
+.sidebar h1 {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.sidebar .items,
+.sidebar .items .subitems {
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar .items .subitems {
+	padding-left: 20px;
+}
+
+.sidebar .items .subitems > li {
+	padding: 4px;
+}
+
+.content {
+	width: calc(100% - 240px);
+}
