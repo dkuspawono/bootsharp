@@ -1,0 +1,21 @@
+{
+  "name": "bootsharp",
+  "moduleType": "globals",
+  "main": [
+    "assets/stylesheets/_bootsharp.scss"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "lib",
+    "tasks",
+    "templates",
+    "test",
+    "*.gemspec",
+    "Rakefile",
+    "Gemfile"
+  ],
+  "dependencies": {
+  },
+  "version": "1.0.0"
+}

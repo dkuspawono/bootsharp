@@ -208,7 +208,7 @@ gulp.task('images', function() {
 // `gulp jshint` - Lints configuration JSON and project JS.
 gulp.task('jshint', function() {
   return gulp.src([
-    'bower.json', 'gulpfile.js'
+    'gulpfile.js'
   ].concat(project.js))
     .pipe(jshint())
     .pipe(jshint.reporter('jshint-stylish'))
