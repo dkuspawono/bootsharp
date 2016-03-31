@@ -10,6 +10,8 @@ Bootsharp requires NPM and Gulp to compile.
  - `gulp --production` compiles minified without source maps
  - `gulp watch` compiles and watches for changes
 
+ As an alternative, you can load `_variables.scss` and `_bootsharp.scss` into a bootstrap loader.
+
  ##Authors
 
  Aaron Dancer - http://github.com/aaron7pm - http://aarondancer.com
