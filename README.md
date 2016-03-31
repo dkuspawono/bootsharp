@@ -2,13 +2,20 @@
 
 Bootsharp is SSL.com's official theme for Bootstrap. Bootsharp is to be used with bootstrap-sass v3. It is not yet compatible with Bootstrap v4.
 
+##Excluded components
+The following components are not included in Bootsharp:
+ - Jumbotron
+ - Tooltips
+ - Popovers
+ - Carousel
+
 ##How to build
 
-Bootsharp requires NPM and Gulp to compile.
+Bootsharp requires NPM to run tasks.
 
- - `gulp` compiles with source maps
- - `gulp --production` compiles minified without source maps
- - `gulp watch` compiles and watches for changes
+ - `npm run build` compiles with source maps
+ - `npm run dist` compiles minified without source maps
+ - `npm start` compiles and watches for changes
 
  As an alternative, you can load `_variables.scss` and `_bootsharp.scss` into a bootstrap loader.
 

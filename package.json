@@ -1,0 +1,32 @@
+{
+  "name": "bootsharp",
+  "version": "0.8.0",
+  "description": "The official Bootstrap and other UI component theme set for SSL.com",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sslcom/bootsharp.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "theme",
+    "sass",
+    "bootstrap-3"
+  ],
+  "author": "SSL.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sslcom/bootsharp/issues"
+  },
+  "homepage": "https://github.com/sslcom/bootsharp#readme",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "react": "^0.14.8",
+    "react-bootstrap": "^0.28.4",
+    "react-dom": "^0.14.8",
+    "react-select": "^0.9.1"
+  }
+}
