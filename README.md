@@ -1,23 +1,27 @@
 #Bootsharp
 
-Bootsharp is a beautiful and professional theme for Bootstrap by SSL.com.
+Bootsharp is SSL.com's official theme for Bootstrap. Bootsharp is to be used with bootstrap-sass v3. It is not yet compatible with Bootstrap v4.
+
+##Excluded components
+The following components are not officially supported in Bootsharp:
+ - Jumbotron
+ - Carousel
 
 ##How to build
 
-Bootsharp requires NPM, Bower, and Gulp
+Bootsharp requires NPM to run tasks.
 
- - `gulp` compiles with source maps
- - `gulp --production` compiles without source maps
- - `gulp watch` compiles and watches for changes
+ - `npm run build` compiles docs to optimized static files
+ - `npm run dist` compiles docs to optimized static files and starts server
+ - `npm start` compiles docs, starts server, watches for changes
 
-##Authors
+ As an alternative, you can load `_variables.scss` and `_bootsharp.scss` into a bootstrap loader.
 
-Aaron Dancer
+ ##Authors
 
-http://aarondancer.com
-http://github.com/aaron7pm
+ Aaron Dancer - http://github.com/aaron7pm - http://aarondancer.com
 
-##Copyright and license
+##Copyright and License
 
 Bootsharp is licensed under a MIT License - http://opensource.org/licenses/mit-license.html.
 
