@@ -1,24 +1,10 @@
-#Bootsharp
+# React-Bootstrap Documentation Website
 
-Bootsharp is a beautiful and professional theme for Bootstrap by SSL.com.
+This website is single page app built on
+[React](http://facebook.github.io/react/), with styles and structure taken from
+the [Bootstrap](http://getbootstrap.com/) docs website.  The app is statically
+generated to HTML via node and then hosted it by pushing HTML to [GitHub
+Pages](http://pages.github.com/).
 
-##How to build
-
-Bootsharp requires NPM, Bower, and Gulp
-
- - `gulp` compiles with source maps
- - `gulp --production` compiles without source maps
- - `gulp watch` compiles and watches for changes
-
-##Authors
-
-Aaron Dancer
-
-http://aarondancer.com
-http://github.com/aaron7pm
-
-##Copyright and license
-
-Bootsharp is licensed under a MIT License - http://opensource.org/licenses/mit-license.html.
-
-You are allowed to use these elements anywhere you want, however we’ll highly appreciate if you will link to our website and secure your site with a SSL.com certificate.
+Source can be found in the
+[react-bootstrap](https://github.com/react-bootstrap/react-bootstrap) repo.
