@@ -10,10 +10,7 @@ const Root = React.createClass({
     getPages() {
       return [
         'index.html',
-        'introduction.html',
-        'getting-started.html',
-        'components.html',
-        'support.html'
+        'components.html'
       ];
     }
   },
@@ -23,7 +20,7 @@ const Root = React.createClass({
   },
 
   getChildContext() {
-    return {metadata: Root.propData};
+    return { metadata: Root.propData };
   },
 
   render() {
@@ -47,7 +44,7 @@ const Root = React.createClass({
     };
 
     let head = {
-      __html: `<title>React-Bootstrap</title>
+      __html: `<title>Bootsharp</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="${Root.assetBaseUrl}/assets/bundle.css" rel="stylesheet">
