@@ -1,34 +1,33 @@
 {
   "name": "bootsharp",
-  "version": "0.28.4",
-  "description": "Bootstrap 3 components built with React",
+  "version": "0.8.0",
+  "description": "Sharp and professional Bootstrap theme and component library created by SSL.com",
   "repository": {
     "type": "git",
-    "url": "react-bootstrap/react-bootstrap"
+    "url": "git://github.com/sslcom/bootsharp"
   },
-  "homepage": "http://react-bootstrap.github.io/",
+  "homepage": "https://sslcom.github.io/bootsharp",
   "scripts": {
     "build": "babel-node tools/build-cli.js --docs-only",
     "start": "babel-node docs/dev-run",
     "production": "npm run docs-build && NODE_ENV=production babel-node docs/server.js",
     "production-unoptimized": "npm run docs-build -- --dev && NODE_ENV=production babel-node docs/server.js"
   },
-  "main": "lib/index.js",
-  "directories": {
-    "lib": "lib/"
-  },
   "files": [
-    "CHANGELOG.md",
-    "lib",
-    "dist"
+    "_bootstrap.scss",
+    "_variables.scss"
   ],
   "keywords": [
-    "react",
-    "ecosystem-react",
-    "react-component",
-    "bootstrap"
+    "bootstrap",
+    "sass",
+    "theme"
   ],
-  "author": "Stephen J. Collings <stevoland@gmail.com>",
+  "contributors": [
+    "Aaron Dancer"
+  ],
+  "bugs": {
+    "url": "https://github.com/SSLcom/Bootsharp/issues"
+  },
   "license": "MIT",
   "peerDependencies": {
     "react": ">=0.14.0",
@@ -123,7 +122,5 @@
   },
   "release-script": {
     "skipBuildStep": "true",
-    "bowerRepo": "git@github.com:react-bootstrap/react-bootstrap-bower.git",
-    "docsRepo": "git@github.com:react-bootstrap/react-bootstrap.github.io.git"
   }
 }
