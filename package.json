@@ -14,7 +14,7 @@
     "production-unoptimized": "npm run build -- --dev && NODE_ENV=production babel-node docs/server.js"
   },
   "files": [
-    "_bootstrap.scss",
+    "_bootsharp.scss",
     "_variables.scss"
   ],
   "keywords": [
