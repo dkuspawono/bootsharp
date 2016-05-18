@@ -21,6 +21,9 @@ Bootsharp requires NPM to run tasks.
 
  Aaron Dancer - http://github.com/aaron7pm - http://aarondancer.com
 
+##Docs
+The docs are generated using a modified version of react-bootstrap's docs (https://github.com/react-bootstrap/react-bootstrap/tree/master/docs)
+
 ##Copyright and License
 
 Bootsharp is licensed under a MIT License - http://opensource.org/licenses/mit-license.html.
