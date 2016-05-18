@@ -10,8 +10,8 @@
   "scripts": {
     "build": "babel-node tools/build-cli.js --docs-only",
     "start": "babel-node docs/dev-run",
-    "production": "npm run docs-build && NODE_ENV=production babel-node docs/server.js",
-    "production-unoptimized": "npm run docs-build -- --dev && NODE_ENV=production babel-node docs/server.js"
+    "production": "npm run build && NODE_ENV=production babel-node docs/server.js",
+    "production-unoptimized": "npm run build -- --dev && NODE_ENV=production babel-node docs/server.js"
   },
   "files": [
     "_bootstrap.scss",
