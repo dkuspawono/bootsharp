@@ -29,3 +29,4 @@ The docs are generated using a modified version of react-bootstrap's docs (https
 Bootsharp is licensed under a MIT License - http://opensource.org/licenses/mit-license.html.
 
 You are allowed to use these elements anywhere you want, however we’ll highly appreciate if you will link to our website and secure your site with a SSL.com certificate.
+
